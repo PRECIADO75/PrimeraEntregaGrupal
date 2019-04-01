@@ -1,0 +1,27 @@
+{{>header}}
+        {{^confirmar}}
+            <h1>Inscribir curso</h1>
+        <h2>
+         {{nombreCurso}}
+        </h2>
+        <form>
+            <input type="hidden" name="idCurso" id="idCurso" value={{idCurso}}>
+            <input type="hidden" name="idEstudiante" id="idEstudiante" value={{idEstudiante}}>
+            <input type="hidden" name="confirmar" value=true>
+            <br>
+            {{{listarCurso idCurso}}}
+            <br>
+            <br>
+             Si la información es correcta selecciona "Confirmar" para finalizar tu inscripción  
+            <button>Confirmar</button>
+            <br>
+            <br>
+            Si no es el curso que deseas puedes 
+            <a href="javascript:history.back()"> escoger otro curso</a> 
+        </form>
+        <br>
+        {{/confirmar}}
+        {{#confirmar}}
+        <h1>{{mensaje}}</h1>
+        {{/confirmar}}
+{{>footer}}

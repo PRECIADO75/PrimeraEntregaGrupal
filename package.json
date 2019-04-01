@@ -1,0 +1,15 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Curso de Node JS TdeA, primera entrega grupal, historias de usuario 4 y 8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ever Preciado",
+  "license": "ISC",
+  "dependencies": {
+    "hbs": "^4.0.3",
+    "yargs": "^13.2.2"
+  }
+}

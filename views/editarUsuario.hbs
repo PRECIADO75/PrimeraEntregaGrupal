@@ -1,0 +1,18 @@
+{{>header}}
+            <h1>Editar datos de usuario</h1>
+        <h2>
+         {{nombre}}
+        </h2>
+        <form method="post" action="confirmEditarUsuario">
+            {{{editarUsuario idUsuario}}}
+            <br>
+            <br>
+             Selecciona "Actualizar" para guardar los cambios  
+            <button>Actualizar</button>
+            <br>
+            <br>
+            Si no es el usuario que deseas modificar puedes 
+            <a href="javascript:history.back()"> Regresar al listado</a> 
+        </form>
+        <br>
+{{>footer}}
