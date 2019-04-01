@@ -9,6 +9,7 @@
   "author": "Ever Preciado",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "hbs": "^4.0.3",
     "yargs": "^13.2.2"
   }
