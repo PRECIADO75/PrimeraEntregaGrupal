@@ -4,6 +4,7 @@
   "description": "Curso de Node JS TdeA, primera entrega grupal, historias de usuario 4 y 8",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ever Preciado",

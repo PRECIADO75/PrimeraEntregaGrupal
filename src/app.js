@@ -8,6 +8,7 @@ const fs = require('fs');
 const directorioPublico = path.join(__dirname,'../public');
 const directorioPartials= path.join(__dirname,'../partials');
 const helpers = require('./helpers');
+const port=process.env.port||3000;
 app.use(express.static(directorioPublico));
 hbs.registerPartials(directorioPartials);
 app.use(bodyParser.urlencoded({extended:false}))
@@ -114,7 +115,7 @@ app.get('*',(req,res) =>{
     })
 })
 
-app.listen(3000,() =>{
-    console.log('Escuchando en el puerto 3000')
+app.listen(port,() =>{
+    console.log('Escuchando en el puerto '+port)
 });
 
