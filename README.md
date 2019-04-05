@@ -1,7 +1,7 @@
-echo "# PrimeraEntregaGrupal"
-echo "#para ejecutar luego de instalar parese en la carpeta del projecto en una ventana CMD del "
-echo "#sistema operativo y ejecuta:"
+ PrimeraEntregaGrupal
+para ejecutar:
+Descargue e instale, luego parese en la carpeta raiz del projecto en una ventana CMD del sistema operativo, luego ejecuta:
 
-echo "#node src/app"
+node src/app
 
-echo "#Luego navega a http://localhost:3000/"
+Despues navega a http://localhost:3000/
